@@ -1,0 +1,156 @@
+body {
+    background: rgb(0, 123, 255);
+    background: radial-gradient(circle, rgba(128, 0, 0, 1) 10%, rgba(255, 69, 90, 1) 100%);
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+.justify-content-center {
+
+    padding: 30px;
+    font-size: 30px;
+    flex: 3;
+
+}
+
+.top_div {
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+img{
+    margin: auto;
+    display: flex;
+}
+
+logo {
+    flex: 1;
+    padding: 10px;
+    font-size: 60px;
+    color: yellow;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    margin: 20px;
+}
+
+.nav-link {
+    color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+    color: #0677f1;
+    background-color: black;
+
+}
+
+
+
+.main_div {
+    width: 65%;
+    margin: auto;
+}
+
+
+
+.mid_cards {
+    margin: auto;
+    display: flex;
+
+
+}
+
+
+article{
+    flex: 1;
+    margin: 20px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    margin: auto;
+  
+    
+
+}
+
+.card-img-top {
+    height: 300px;
+   
+}
+
+.mid_div_articles{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    
+}
+.mid_div_contact{
+    color:white;
+    font-size: 20px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+
+.contact{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    align-content: center;
+    color: yellow;
+}
+.contact img{
+    filter: invert(100%);
+}
+
+.mid_div_contact form{
+
+    flex: 1;
+    padding: 30px;
+}
+
+form{
+    border-radius: 10px;
+    padding: 10px;
+}
+form input{
+    border-radius: 10px;
+    padding: 5px;
+}
+form textarea{
+    border-radius: 10px;
+     padding: 5px;
+}
+
+.mid_div_carousel{
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+}
+
+footer {
+    color: yellow;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+article a{
+    color: midnightblue;
+}
+
